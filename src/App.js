@@ -1,6 +1,4 @@
 import React from "react";
-//import logo from "./logo.svg";
-import bg from "./img/bg.jpg";
 import "./App.css";
 import Greet from "./component/Greet";
 function App() {
