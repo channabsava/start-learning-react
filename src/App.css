@@ -1,22 +1,92 @@
-.App {
-  text-align: center;
+.card {
+  margin: auto;
+  width: 500px;
+  height: 800px;
+  background-image: url(./img/bg.jpg);
+  background-color: #cccccc;
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2);
 }
 
-.App-logo {
-  height: 40vmin;
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.container {
+  height: 100%;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  justify-content: flex-end;
+  font-size: larger;
   color: white;
+  text-align: left;
+  font-family: arial, fantasy;
+  align-items: center;
 }
 
-.App-link {
-  color: #09d3ac;
+.infocontainer {
+  margin-right: 10px;
+  border-bottom: 1px solid white;
+  text-align: right;
+}
+.number {
+  font-weight: bold;
+  margin-left: 134px;
+  font-size: 50px;
+}
+.text1 {
+  font-weight: bold;
+  font-size: 23px;
+}
+.text {
+  margin-left: 14px;
+  line-height: 0;
+  color: #ececec;
+  font-size: 13px;
+}
+.time {
+  font-weight: bold;
+  font-size: 23px;
+  display: inline-block;
+}
+.icon {
+  width: 50px;
+  height: 50px;
+  text-align: right;
+  margin-right: 10px;
+  box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2);
+}
+.square1 {
+  width: 40px;
+  height: 40px;
+  background-color: aquamarine;
+  background-origin: padding-box;
+  margin-top: -288px;
+  margin-left: 446px;
+}
+.square2 {
+  width: 40px;
+  height: 40px;
+  background-color: aquamarine;
+  background-origin: padding-box;
+  margin-top: -40px;
+  margin-left: 400px;
+}
+.square3 {
+  width: 40px;
+  height: 40px;
+  background-color: aquamarine;
+  background-origin: padding-box;
+  margin-top: 11px;
+  margin-left: 400px;
+}
+.square4 {
+  width: 40px;
+  height: 40px;
+  background-color: aquamarine;
+  background-origin: padding-box;
+  margin-top: -40px;
+  margin-left: 446px;
+}
+.spanpropP {
+  color: #ececec;
+}
+.day {
+  font-size: 14px;
 }
