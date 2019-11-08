@@ -1,0 +1,34 @@
+.card2 {
+  margin: auto;
+  width: 500px;
+  height: 800px;
+  transition: 0.3s;
+  background-image: url(/static/media/bg1.60cb3e82.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.container {
+  padding: 2px 16px;
+}
+a {
+  text-decoration: none;
+  color: brown;
+}
+.desc {
+  padding-top: 10px;
+  color: red;
+  font-weight: bolder;
+  font-size: 25px;
+}
+.int {
+  padding-top: 10px;
+  padding-bottom: 25px;
+  font-weight: bolder;
+  font-size: 20px;
+}

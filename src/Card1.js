@@ -1,18 +1,21 @@
 import React, { Component } from "react";
+import styles from "./Card1.modules.css";
 
 class Card1 extends Component {
   render() {
     return (
-      <div class="card">
+      <div className={styles.Card1}>
         <div class="container">
           <div class="infocontainer">
             <div class="number">
               12<sup>o</sup>
             </div>
+
             <div>
               <div class="text1">Scattered Cloud</div>
               <div class="text">Mississauga/Canada</div>
             </div>
+
             <div class="time">
               9:38<span class="timepm">p.m.</span>
             </div>
