@@ -1,9 +1,11 @@
 .card2 {
   margin: auto;
+  margin-top: 15px;
+  margin-bottom: 15px;
   width: 500px;
   height: 800px;
   transition: 0.3s;
-  background-image: url(/static/media/bg1.60cb3e82.jpg);
+  background-image: url(img/bg1.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2);
@@ -17,11 +19,12 @@
   padding: 2px 16px;
 }
 a {
+  padding-top: 240px;
   text-decoration: none;
   color: brown;
 }
 .desc {
-  padding-top: 10px;
+  padding-top: 237px;
   color: red;
   font-weight: bolder;
   font-size: 25px;
@@ -31,4 +34,8 @@ a {
   padding-bottom: 25px;
   font-weight: bolder;
   font-size: 20px;
+  color: antiquewhite;
+}
+.textprop {
+  color: #0eed95;
 }
