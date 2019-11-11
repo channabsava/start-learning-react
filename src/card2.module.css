@@ -1,0 +1,41 @@
+.card2 {
+  margin: auto;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  width: 500px;
+  height: 800px;
+  transition: 0.3s;
+  background-image: url(img/bg1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.container {
+  padding: 2px 16px;
+}
+a {
+  padding-top: 240px;
+  text-decoration: none;
+  color: brown;
+}
+.heading {
+  padding-top: 237px;
+  color: red;
+  font-weight: bolder;
+  font-size: 25px;
+}
+.subHeading {
+  padding-top: 10px;
+  padding-bottom: 25px;
+  font-weight: bolder;
+  font-size: 20px;
+  color: antiquewhite;
+}
+.link {
+  color: #0eed95;
+}

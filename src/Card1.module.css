@@ -1,0 +1,91 @@
+.card1 {
+  margin: auto;
+  width: 500px;
+  height: 800px;
+  background-image: url(img/bg.jpg);
+  background-color: #cccccc;
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2);
+}
+.container {
+  height: 100%;
+  display: flex;
+  justify-content: flex-end;
+  font-size: larger;
+  color: white;
+  text-align: left;
+  font-family: arial, fantasy;
+  align-items: center;
+}
+.infocontainer {
+  margin-right: 10px;
+  border-bottom: 1px solid white;
+  text-align: right;
+}
+.temperature {
+  font-weight: bold;
+  margin-left: 134px;
+  font-size: 50px;
+}
+.heading {
+  font-weight: bold;
+  font-size: 23px;
+}
+.subHeading {
+  margin-left: 14px;
+  line-height: 0;
+  color: #ececec;
+  font-size: 13px;
+  margin-bottom: 15px;
+}
+.time {
+  font-weight: bold;
+  font-size: 23px;
+  display: inline-block;
+}
+.abbreviations {
+  color: #ececec;
+}
+.day {
+  font-size: 14px;
+}
+.icon {
+  width: 50px;
+  height: 50px;
+  text-align: right;
+  margin-right: 10px;
+  box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2);
+}
+.square1 {
+  width: 40px;
+  height: 40px;
+  background-color: aquamarine;
+  background-origin: padding-box;
+  margin-top: -288px;
+  margin-left: 446px;
+}
+.square2 {
+  width: 40px;
+  height: 40px;
+  background-color: aquamarine;
+  background-origin: padding-box;
+  margin-top: -40px;
+  margin-left: 400px;
+}
+.square3 {
+  width: 40px;
+  height: 40px;
+  background-color: aquamarine;
+  background-origin: padding-box;
+  margin-top: 11px;
+  margin-left: 400px;
+}
+.square4 {
+  width: 40px;
+  height: 40px;
+  background-color: aquamarine;
+  background-origin: padding-box;
+  margin-top: -40px;
+  margin-left: 446px;
+}
