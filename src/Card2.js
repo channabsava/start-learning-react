@@ -6,16 +6,10 @@ class Card2 extends Component {
     return (
       <div className={styles.card2}>
         <div className={styles.container}>
-          <div className={styles.desc}>
-            No penalty on withdrawal from your fixed deposit
-          </div>
-          <div className={styles.int}>
-            On first partual withdrawal upto 25% of your original FD principle
-            value
-          </div>
-
-          <a className={styles.textprop} href="https://www.sbimf.com/en-us">
-            KNOW MORE
+          <div className={styles.heading}>{this.props.heading}</div>
+          <div className={styles.subHeading}>{this.props.subHeading}</div>
+          <a className={styles.link} href="https://www.sbimf.com/en-us">
+            {this.props.link}
           </a>
         </div>
       </div>

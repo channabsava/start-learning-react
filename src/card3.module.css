@@ -11,7 +11,7 @@
   background-image: url(img/bg2.jpg);
 }
 
-.title {
+.companyName {
   color: black;
   font-size: 18px;
   padding: 10px;
@@ -29,7 +29,7 @@ a {
   padding-top: 10px;
   color: grey;
 }
-.profiletext {
+.heading {
   font-size: 17px;
   font-weight: bold;
 }
@@ -55,7 +55,7 @@ a {
   background-image: url(img/child-817373_960_720.jpg);
 }
 
-.round3 {
+.designation {
   border: 1px solid rgb(26, 12, 218);
   border-radius: 15px;
   height: 30px;

@@ -23,19 +23,19 @@ a {
   text-decoration: none;
   color: brown;
 }
-.desc {
+.heading {
   padding-top: 237px;
   color: red;
   font-weight: bolder;
   font-size: 25px;
 }
-.int {
+.subHeading {
   padding-top: 10px;
   padding-bottom: 25px;
   font-weight: bolder;
   font-size: 20px;
   color: antiquewhite;
 }
-.textprop {
+.link {
   color: #0eed95;
 }

@@ -23,16 +23,16 @@
   border-bottom: 1px solid white;
   text-align: right;
 }
-.number {
+.temperature {
   font-weight: bold;
   margin-left: 134px;
   font-size: 50px;
 }
-.text1 {
+.heading {
   font-weight: bold;
   font-size: 23px;
 }
-.text {
+.subHeading {
   margin-left: 14px;
   line-height: 0;
   color: #ececec;
@@ -44,7 +44,7 @@
   font-size: 23px;
   display: inline-block;
 }
-.timepm {
+.abbreviations {
   color: #ececec;
 }
 .day {

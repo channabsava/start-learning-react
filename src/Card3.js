@@ -5,11 +5,11 @@ class Card3 extends Component {
   render() {
     return (
       <div className={style.card3}>
-        <div className={style.name}>Alexndra Dadario</div>
-        <div className={style.title}>Parker Industries</div>
-        <div className={style.round3}>UX DESIGNER</div>
+        <div className={style.name}>{this.props.name}</div>
+        <div className={style.companyName}>{this.props.companyName}</div>
+        <div className={style.designation}>{this.props.designation}</div>
         <div className={style.profile}>
-          <div className={style.profiletext}>USUALLY COLLABORATED WITH</div>
+          <div className={style.heading}>{this.props.heading}</div>
           <div className={style.dot}>
             <div className={style.icon}></div>
           </div>
