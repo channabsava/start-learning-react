@@ -7,12 +7,10 @@ export default class App extends Component {
     this.state = { data: "" };
   }
   componentDidMount() {
-    console.log("Component did mount ");
     fetch("https://api.github.com/users")
       .then(result => result.json())
       .then(data => {
         this.setState({ data });
-        console.log(this.state.data);
       });
   }
   render() {
