@@ -23,8 +23,13 @@ export default class App extends Component {
           this.state.data.map(data => {
             return (
               <div>
-                <div>
-                  <img src={data.avatar_url} alt="profile"></img>
+                <div className={style.images}>
+                  <img
+                    src={data.avatar_url}
+                    width="100%"
+                    height="100%"
+                    alt="profile"
+                  ></img>
                 </div>
                 <div className={style.name}>{data.login}</div>
               </div>
