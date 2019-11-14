@@ -1,26 +1,27 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { Component } from "react";
+import style from "./App.module.css";
+import axios from "axios";
+import Profile from "./Profile";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+export default class App extends Component {
+  constructor() {
+    super();
+    this.state = { data: "" };
+  }
+  componentDidMount() {
+    axios.get("https://api.github.com/users").then(data => {
+      this.setState({ data: data.data });
+    });
+  }
+  render() {
+    return (
+      <div className={style.base}>
+        {this.state &&
+          this.state.data &&
+          this.state.data.map(data => {
+            return <Profile profileImage={data.avatar_url} name={data.login} />;
+          })}
+      </div>
+    );
+  }
 }
-
-export default App;
