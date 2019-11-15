@@ -5,7 +5,7 @@ export default class Counter extends Component {
     this.props.increment("hi");
   };
   decrement = () => {
-    this.props.decrement();
+    this.props.decrement("hello");
   };
   render() {
     console.log(this.props);

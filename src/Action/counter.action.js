@@ -7,7 +7,7 @@ export function increment(text) {
     text
   };
 }
-export function decrement() {
+export function decrement(text) {
   return {
     type: DECREMENT_COUNT
   };
