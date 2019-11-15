@@ -1,0 +1,25 @@
+.base {
+  padding: 30px;
+}
+.opertor {
+  width: 167px;
+  text-align: center;
+  color: aliceblue;
+  margin: auto;
+  padding: 130px;
+  background-color: brown;
+}
+
+.buttonproperty {
+  background-color: #4caf50;
+  border: none;
+  color: white;
+  padding: 19px 43px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 20px;
+}
