@@ -1,8 +1,15 @@
 import React from "react";
-import "./App.css";
 
-function App() {
-  return <div className="App"></div>;
+import CardContainer from "./Container/CardContainer";
+
+class App extends React.Component {
+  render() {
+    return (
+      <div>
+        <CardContainer />
+      </div>
+    );
+  }
 }
 
 export default App;
