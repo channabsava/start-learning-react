@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import style from "../Count.module.css";
 
 export default class Counter extends Component {
   increment = () => {
@@ -10,8 +11,9 @@ export default class Counter extends Component {
   render() {
     console.log(this.props);
     return (
-      <div>
+      <div className={style.opertor}>
         <button
+          className={style.buttonproperty}
           onClick={() => {
             this.increment();
           }}
@@ -20,6 +22,7 @@ export default class Counter extends Component {
         </button>
         <div>count:{this.props.count}</div>
         <button
+          className={style.buttonproperty}
           onClick={() => {
             this.decrement();
           }}
