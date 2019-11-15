@@ -1,7 +1,7 @@
-import { getCard } from "/home/shivam/Desktop/start-learning-html/start-learning-react/src/Action/CardDesign.Action.js";
+import { getCard } from "../Action/CardDesign.Action.js";
 import { withRouter } from "react-router-dom";
 import { connect } from "react-redux";
-import CardUser from "/home/shivam/Desktop/start-learning-html/start-learning-react/src/Component/CardUser.js";
+import CardUser from "../Component/CardUser";
 
 const mapDispatchToProps = dispatch => {
   return {
