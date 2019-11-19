@@ -1,0 +1,26 @@
+.base {
+  position: relative;
+  color: white;
+  font-size: larger;
+  max-width: 500px;
+  margin: auto;
+  text-align: left;
+  font-family: arial, fantasy;
+  width: 500px;
+  height: 800px;
+  padding-top: 192px;
+}
+
+.text {
+  color: darkred;
+  padding: 10px;
+  font-size: 20px;
+}
+.textBox {
+  background-color: rgba(238, 238, 238, 0.8);
+  font-size: 25px;
+}
+.buttonProperty {
+  background-color: lightcoral;
+  font-size: 25px;
+}
