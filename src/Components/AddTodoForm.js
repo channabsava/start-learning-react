@@ -13,7 +13,7 @@ export default class AddTodoForm extends Component {
     }
   };
   deleteTodo = (id, text) => {
-    if (this.props.deleteTodo) {react-redux": "^
+    if (this.props.deleteTodo) {
       this.props.deleteTodo(id);
       this.setState({ todo: "" });
     }
@@ -39,7 +39,7 @@ export default class AddTodoForm extends Component {
             this.setState({ todo: "" });
           }}
         >
-          <div>AddTodo</div>
+          <div className={style.text}>AddTodo</div>
         </button>
         {this.props.data.map(val => {
           return (
