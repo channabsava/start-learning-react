@@ -1,8 +1,13 @@
 import React from "react";
-import "./App.css";
+import style from "./App.css";
+import TodoContainer from "./Container /TodoContainer";
 
 function App() {
-  return <div className="App"></div>;
+  return (
+    <div>
+      <TodoContainer />
+    </div>
+  );
 }
 
 export default App;
