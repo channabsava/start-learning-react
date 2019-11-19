@@ -1,15 +1,14 @@
-import "./App.css";
 import { Route, Switch, Redirect } from "react-router-dom";
 
 import Home from "./Component/Home.js";
 import About from "./Component/About.js";
 import Contact from "./Component/Contact.js";
 import NotFound from "./Component/NotFound";
+import React, { Component } from "react";
 
-import React from "react";
-function App() {
-  return (
-    <div>
+class App extends Component {
+  render() {
+    return (
       <Switch>
         <Route exact path="/" component={Home} />
         <Route path="/About" component={About} />
@@ -19,8 +18,8 @@ function App() {
           <Redirect to="/NotFound"></Redirect>
         </Route>
       </Switch>
-    </div>
-  );
+    );
+  }
 }
 
 export default App;
